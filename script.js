@@ -56,3 +56,15 @@ const typed = new Typed('.multiText', {
     backDelayo: 1000,
     loop: true
 });
+
+// Hidden Content
+document.getElementById('readMoreBtn').addEventListener('click', function() {
+    var hiddenContent = document.querySelector('.hiddenContent');
+    if (hiddenContent.style.display === 'none') {
+        hiddenContent.style.display = 'block';
+        document.getElementById('readMoreBtn').innerText = 'Read Less';
+    } else {
+        hiddenContent.style.display = 'none';
+        document.getElementById('readMoreBtn').innerText = 'Read More';
+    }
+});

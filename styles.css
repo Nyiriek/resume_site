@@ -37,12 +37,12 @@ section {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 1.5rem 10%;
+  padding: 2rem 1.5%;
   background: var(--bg-color);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  z-index: 10 0;
+  z-index: 100;
 }
 
 .header.sticky {
@@ -367,4 +367,8 @@ span {
   .about-img img {
     width: 90vw;
   }
+}
+
+.hiddenContent {
+  display: none;
 }
