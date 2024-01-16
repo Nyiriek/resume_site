@@ -59,7 +59,7 @@ const typed = new Typed('.multiText', {
 
 // Hidden Content
 document.getElementById('readMoreBtn').addEventListener('click', function() {
-    var hiddenContent = document.querySelector('.hiddenContent');
+    const hiddenContent = document.querySelector('.hiddenContent');
     if (hiddenContent.style.display === 'none') {
         hiddenContent.style.display = 'block';
         document.getElementById('readMoreBtn').innerText = 'Read Less';
